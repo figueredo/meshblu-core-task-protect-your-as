@@ -1,0 +1,36 @@
+{
+  "name": "meshblu-core-task-protect-your-as",
+  "version": "1.0.0",
+  "description": "A task for meshblu-core that prevents devices from abusing *as whitelists.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/meshblu-core-task-protect-your-as.git"
+  },
+  "keywords": [
+    "mehsblu",
+    "IoT"
+  ],
+  "author": "serveradmin@octoblu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/meshblu-core-task-protect-your-as/issues"
+  },
+  "homepage": "https://github.com/octoblu/meshblu-core-task-protect-your-as#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coffee-coverage": "^0.7.0",
+    "coffee-script": "^1.10.0",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-istanbul": "^0.2.0",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
