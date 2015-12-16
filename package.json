@@ -1,6 +1,6 @@
 {
   "name": "meshblu-core-task-protect-your-as",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A task for meshblu-core that prevents devices from abusing *as whitelists.",
   "main": "index.js",
   "directories": {
